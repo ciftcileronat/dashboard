@@ -1,14 +1,23 @@
-.home {
-    display: flex;
-
-    .homeContainer {
-        flex: 6;
-
-        .widgets {
-            display: flex;
-            padding: 20px;
-            gap: 20px;
-        }
-    }
+.homeWidgets,
+.homeCharts {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
 }
 
+.homeCharts {
+  padding: 5px 20px;
+}
+
+.homeListContainer {
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 20px;
+  margin: 20px;
+
+  .homeListTitle {
+    font-weight: 500;
+    color: gray;
+    margin-bottom: 15px;
+  }
+}
